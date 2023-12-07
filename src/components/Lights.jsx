@@ -71,16 +71,16 @@ export function Lights() {
       },
     },
     intensity: {
-      value: 1,
+      value: 50,
       min: 0,
-      max: 100000,
+      max: 1000,
       onChange: (v) => {
         pointRef.current.intensity = v;
       },
     },
     position: {
       x: 0,
-      y: 120,
+      y: 10,
       z: 0,
       onChange: (v) => {
         pointRef.current.position.copy(v);
@@ -102,16 +102,16 @@ export function Lights() {
       },
     },
     intensity: {
-      value: 1,
+      value: 50,
       min: 0,
-      max: 100000,
+      max: 1000,
       onChange: (v) => {
         spotRef.current.intensity = v;
       },
     },
     position: {
       x: 0,
-      y: 220,
+      y: 10,
       z: 0,
       onChange: (v) => {
         spotRef.current.position.copy(v);

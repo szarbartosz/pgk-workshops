@@ -14,7 +14,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 export function Hospital(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
-    "assets/models/lowpoly_medical_room.glb"
+    "assets/models/hospital.glb"
   );
   const { actions } = useAnimations(animations, group);
   return (
@@ -34,7 +34,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder_palette_0"
                     geometry={nodes.Cylinder_palette_0.geometry}
@@ -48,7 +47,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder001_palette_0"
                     geometry={nodes.Cylinder001_palette_0.geometry}
@@ -62,7 +60,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder007_palette_0"
                     geometry={nodes.Cylinder007_palette_0.geometry}
@@ -76,7 +73,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder008_palette_0"
                     geometry={nodes.Cylinder008_palette_0.geometry}
@@ -90,7 +86,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Plane002_palette_0"
                     geometry={nodes.Plane002_palette_0.geometry}
@@ -104,7 +99,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Plane003_palette_0"
                     geometry={nodes.Plane003_palette_0.geometry}
@@ -118,7 +112,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Plane004_palette_0"
                     geometry={nodes.Plane004_palette_0.geometry}
@@ -132,7 +125,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube055_palette_0"
                     geometry={nodes.Cube055_palette_0.geometry}
@@ -146,7 +138,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube034_palette_0"
                     geometry={nodes.Cube034_palette_0.geometry}
@@ -160,7 +151,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube035_palette_0"
                     geometry={nodes.Cube035_palette_0.geometry}
@@ -174,7 +164,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube036_palette_0"
                     geometry={nodes.Cube036_palette_0.geometry}
@@ -188,7 +177,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube037_palette_0"
                     geometry={nodes.Cube037_palette_0.geometry}
@@ -208,7 +196,6 @@ export function Hospital(props) {
                   scale={145.052}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder031_palette_0"
                     geometry={nodes.Cylinder031_palette_0.geometry}
@@ -222,7 +209,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube031_palette_0"
                     geometry={nodes.Cube031_palette_0.geometry}
@@ -236,7 +222,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube033_palette_0"
                     geometry={nodes.Cube033_palette_0.geometry}
@@ -249,7 +234,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Plane_palette_0"
                     geometry={nodes.Plane_palette_0.geometry}
@@ -263,7 +247,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube024_palette_0"
                     geometry={nodes.Cube024_palette_0.geometry}
@@ -277,7 +260,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube023_palette_0"
                     geometry={nodes.Cube023_palette_0.geometry}
@@ -291,7 +273,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube025_palette_0"
                     geometry={nodes.Cube025_palette_0.geometry}
@@ -305,7 +286,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube026_palette_0"
                     geometry={nodes.Cube026_palette_0.geometry}
@@ -319,7 +299,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube027_palette_0"
                     geometry={nodes.Cube027_palette_0.geometry}
@@ -333,7 +312,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube028_palette_0"
                     geometry={nodes.Cube028_palette_0.geometry}
@@ -347,7 +325,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube029_palette_0"
                     geometry={nodes.Cube029_palette_0.geometry}
@@ -361,7 +338,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube030_palette_0"
                     geometry={nodes.Cube030_palette_0.geometry}
@@ -375,7 +351,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder026_palette_0"
                     geometry={nodes.Cylinder026_palette_0.geometry}
@@ -389,7 +364,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Circle_palette_0"
                     geometry={nodes.Circle_palette_0.geometry}
@@ -403,7 +377,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Circle001_palette_0"
                     geometry={nodes.Circle001_palette_0.geometry}
@@ -417,7 +390,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube052_palette_0"
                     geometry={nodes.Cube052_palette_0.geometry}
@@ -431,7 +403,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder027_palette_0"
                     geometry={nodes.Cylinder027_palette_0.geometry}
@@ -445,7 +416,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Vert_palette_0"
                     geometry={nodes.Vert_palette_0.geometry}
@@ -459,7 +429,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube019_palette_0"
                     geometry={nodes.Cube019_palette_0.geometry}
@@ -473,14 +442,12 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube021_palette_0"
                     geometry={nodes.Cube021_palette_0.geometry}
                     material={materials.palette}
                   />
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube021_Monitors_0"
                     geometry={nodes.Cube021_Monitors_0.geometry}
@@ -494,7 +461,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube022_palette_0"
                     geometry={nodes.Cube022_palette_0.geometry}
@@ -508,7 +474,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube006_palette_0"
                     geometry={nodes.Cube006_palette_0.geometry}
@@ -522,7 +487,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube007_palette_0"
                     geometry={nodes.Cube007_palette_0.geometry}
@@ -536,7 +500,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder010_palette_0"
                     geometry={nodes.Cylinder010_palette_0.geometry}
@@ -550,7 +513,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube008_palette_0"
                     geometry={nodes.Cube008_palette_0.geometry}
@@ -564,7 +526,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Plane001_palette_0"
                     geometry={nodes.Plane001_palette_0.geometry}
@@ -578,7 +539,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder012_palette_0"
                     geometry={nodes.Cylinder012_palette_0.geometry}
@@ -592,7 +552,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder015_palette_0"
                     geometry={nodes.Cylinder015_palette_0.geometry}
@@ -606,7 +565,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder013_palette_0"
                     geometry={nodes.Cylinder013_palette_0.geometry}
@@ -620,14 +578,12 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="App_Monitor_palette_0"
                     geometry={nodes.App_Monitor_palette_0.geometry}
                     material={materials.palette}
                   />
                   <mesh
-                    castShadow
                     receiveShadow
                     name="App_Monitor_Monitors_0"
                     geometry={nodes.App_Monitor_Monitors_0.geometry}
@@ -641,7 +597,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder014_palette_0"
                     geometry={nodes.Cylinder014_palette_0.geometry}
@@ -655,7 +610,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder017_palette_0"
                     geometry={nodes.Cylinder017_palette_0.geometry}
@@ -669,7 +623,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder018_palette_0"
                     geometry={nodes.Cylinder018_palette_0.geometry}
@@ -683,7 +636,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder019_palette_0"
                     geometry={nodes.Cylinder019_palette_0.geometry}
@@ -697,7 +649,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube014_palette_0"
                     geometry={nodes.Cube014_palette_0.geometry}
@@ -711,7 +662,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube015_palette_0"
                     geometry={nodes.Cube015_palette_0.geometry}
@@ -725,7 +675,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube016_palette_0"
                     geometry={nodes.Cube016_palette_0.geometry}
@@ -739,7 +688,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube017_palette_0"
                     geometry={nodes.Cube017_palette_0.geometry}
@@ -753,7 +701,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cube018_palette_0"
                     geometry={nodes.Cube018_palette_0.geometry}
@@ -767,7 +714,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Vert002_palette_0"
                     geometry={nodes.Vert002_palette_0.geometry}
@@ -781,7 +727,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder028_palette_0"
                     geometry={nodes.Cylinder028_palette_0.geometry}
@@ -794,7 +739,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="Cylinder030_palette_0"
                     geometry={nodes.Cylinder030_palette_0.geometry}
@@ -808,7 +752,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="frame_palette_0"
                     geometry={nodes.frame_palette_0.geometry}
@@ -822,7 +765,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="shells_palette_0"
                     geometry={nodes.shells_palette_0.geometry}
@@ -836,7 +778,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="bottle3_palette_0"
                     geometry={nodes.bottle3_palette_0.geometry}
@@ -850,7 +791,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="bottle1_palette_0"
                     geometry={nodes.bottle1_palette_0.geometry}
@@ -864,7 +804,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="tablets1_palette_0"
                     geometry={nodes.tablets1_palette_0.geometry}
@@ -878,7 +817,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="bottle2_palette_0"
                     geometry={nodes.bottle2_palette_0.geometry}
@@ -892,7 +830,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="glass_palette_0"
                     geometry={nodes.glass_palette_0.geometry}
@@ -906,7 +843,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="tablets2_palette_0"
                     geometry={nodes.tablets2_palette_0.geometry}
@@ -920,7 +856,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="tablets3_palette_0"
                     geometry={nodes.tablets3_palette_0.geometry}
@@ -934,7 +869,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="bottle4_palette_0"
                     geometry={nodes.bottle4_palette_0.geometry}
@@ -948,14 +882,12 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="clockBase_palette_0"
                     geometry={nodes.clockBase_palette_0.geometry}
                     material={materials.palette}
                   />
                   <mesh
-                    castShadow
                     receiveShadow
                     name="clockBase_Monitors_0"
                     geometry={nodes.clockBase_Monitors_0.geometry}
@@ -969,7 +901,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="minuteHand_palette_0"
                     geometry={nodes.minuteHand_palette_0.geometry}
@@ -983,7 +914,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="hourHand_palette_0"
                     geometry={nodes.hourHand_palette_0.geometry}
@@ -997,7 +927,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="clockmiddlescrew_palette_0"
                     geometry={nodes.clockmiddlescrew_palette_0.geometry}
@@ -1011,7 +940,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="walls_palette_0"
                     geometry={nodes.walls_palette_0.geometry}
@@ -1020,7 +948,6 @@ export function Hospital(props) {
                 </group>
                 <group name="floor" rotation={[-Math.PI / 2, 0, 0]} scale={100}>
                   <mesh
-                    castShadow
                     receiveShadow
                     name="floor_palette_0"
                     geometry={nodes.floor_palette_0.geometry}
@@ -1034,7 +961,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="floorTile_palette_0"
                     geometry={nodes.floorTile_palette_0.geometry}
@@ -1048,7 +974,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="lowerWall_palette_0"
                     geometry={nodes.lowerWall_palette_0.geometry}
@@ -1062,7 +987,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="socket_palette_0"
                     geometry={nodes.socket_palette_0.geometry}
@@ -1076,7 +1000,6 @@ export function Hospital(props) {
                   scale={100}
                 >
                   <mesh
-                    castShadow
                     receiveShadow
                     name="socket2_palette_0"
                     geometry={nodes.socket2_palette_0.geometry}
