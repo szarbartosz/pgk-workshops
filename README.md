@@ -1,8 +1,33 @@
-# React + Vite
+# React Three Fiber workshop :balloon:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project structure :deciduous_tree:
 
-Currently, two official plugins are available:
+```bash
+.
+├── README.md
+├── index.html
+├── jsconfig.json
+├── package.json
+├── public
+│   └── assets
+│       ├── icons
+│       │   └── balloon.png
+│       └── models
+│           └── lowpoly_medical_room.glb
+├── src
+│   ├── App.jsx
+│   ├── components
+│   │   ├── Hospital.jsx
+│   │   └── Lights.jsx
+│   ├── main.jsx
+│   └── styles
+│       └── index.css
+├── vite.config.js
+└── yarn.lock
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Covered topics
+
+- creating `.jsx` components from `.glb` files
+- rendering components
+- introducing `light` and `shadows`
