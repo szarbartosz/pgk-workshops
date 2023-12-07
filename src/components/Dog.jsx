@@ -15,6 +15,7 @@ export function Dog(props) {
   return (
     <group {...props} dispose={null}>
       <mesh
+        castShadow
         geometry={nodes["037_Vray_Material_#32_0"].geometry}
         material={materials.Material_32}
         position={[-1.91, 12.044, 0.017]}
